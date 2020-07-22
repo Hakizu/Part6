@@ -18,8 +18,6 @@ const store = createStore(
   composeWithDevTools()
 )
 
-export default store
-
 console.log(store.getState())
 
 ReactDOM.render(
