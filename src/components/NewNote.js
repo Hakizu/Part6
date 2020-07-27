@@ -21,5 +21,5 @@ const NewNote = (props) => {
 
 export default connect(
   null,
-  { createNote }
+  { createNote } //mapDispatchToProps
 )(NewNote)
