@@ -8,7 +8,7 @@ const NewNote = (props) => {
     event.preventDefault()
     const content = event.target.note.value
     event.target.note.value = ''
-    props(createNote(content))
+    props.createNote(content)
   }
 
   return (
